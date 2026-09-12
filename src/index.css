@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Selection Style */
+  ::selection {
+    background-color: #facc15;
+    color: #000;
+  }
+
+  /* Hide default scrollbar */
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Marching ants dashed border animation */
+  @keyframes marching-ants {
+    0% {
+      stroke-dashoffset: 0;
+    }
+    100% {
+      stroke-dashoffset: -20;
+    }
+  }
+
+  .marching-ants-path {
+    stroke-dasharray: 6, 4;
+    animation: marching-ants 0.8s linear infinite;
+  }
+
+  /* Infinite marquee keyframe */
+  @keyframes marquee-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee-right {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .animate-marquee-left {
+    animation: marquee-left 25s linear infinite;
+  }
+
+  .animate-marquee-right {
+    animation: marquee-right 25s linear infinite;
+  }
+
+  .animate-marquee-fast-left {
+    animation: marquee-left 12s linear infinite;
+  }
+
+  .animate-marquee-fast-right {
+    animation: marquee-right 12s linear infinite;
+  }
+}
+
+/* Base resets & dark modern feel */
+html, body {
+  background-color: #09090b; /* zinc-950 */
+  color: #ffffff;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #facc15;
+}
