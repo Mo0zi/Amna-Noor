@@ -91,7 +91,7 @@ export default function Contact() {
         <div className="flex flex-col space-y-8">
           <div ref={headingRef}>
             <span className="text-xs uppercase tracking-[0.3em] font-extrabold text-yellow-400">
-              Hire AmnaNoor Eng
+              Hire amnanoor ai
             </span>
             <h2 className="text-5xl md:text-[8vw] font-black text-white uppercase tracking-tighter leading-none mt-2">
               Let's Talk
@@ -99,7 +99,7 @@ export default function Contact() {
           </div>
 
           <p className="text-zinc-400 max-w-md text-sm md:text-base leading-relaxed">
-            Have a project in mind? Reach out to AmnaNoor Eng and let's craft something outstanding.
+            Have a project in mind? Reach out to amnanoor ai and let's craft something outstanding.
           </p>
 
           <div className="space-y-1">
