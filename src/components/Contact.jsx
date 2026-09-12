@@ -91,15 +91,15 @@ export default function Contact() {
         <div className="flex flex-col space-y-8">
           <div ref={headingRef}>
             <span className="text-xs uppercase tracking-[0.3em] font-extrabold text-yellow-400">
-              Get In Touch
+              Hire AmnaNoor AI Engineer
             </span>
-            <h1 className="text-5xl md:text-[8vw] font-black text-white uppercase tracking-tighter leading-none mt-2">
+            <h2 className="text-5xl md:text-[8vw] font-black text-white uppercase tracking-tighter leading-none mt-2">
               Let's Talk
-            </h1>
+            </h2>
           </div>
 
           <p className="text-zinc-400 max-w-md text-sm md:text-base leading-relaxed">
-            Have a project in mind, want to build premium experiences together, or just say hello? Reach out and let's craft something outstanding.
+            Have an AI integration or web architecture project in mind? Reach out to AmnaNoor AI Engineer and let's craft something outstanding.
           </p>
 
           <div className="space-y-1">

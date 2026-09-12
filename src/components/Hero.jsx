@@ -74,12 +74,12 @@ export default function Hero() {
         {/* Left Section: Text Content */}
         <div ref={textRef} className="flex flex-col justify-center space-y-6">
           <span className="text-xs uppercase tracking-[0.3em] font-extrabold text-zinc-400">
-            Full-Stack Web Developer &amp; Product Builder
+            Premium Web Architect &amp; Product Builder
           </span>
           
           <h1 className="text-5xl md:text-[5vw] font-black uppercase leading-[0.95] tracking-tighter text-white">
             Hello, I'm <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-500 drop-shadow-sm">Amna Noor</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-500 drop-shadow-sm">AmnaNoor AI Engineer</span>
           </h1>
 
           {/* Rolling Word Container */}
@@ -132,7 +132,7 @@ export default function Hero() {
           >
             <img
               src="/hero_profile.jpg"
-              alt="Amna Noor - Software Engineer and AI Developer"
+              alt="AmnaNoor AI Engineer - Premium Web Architect Portfolio"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
             />
           </div>

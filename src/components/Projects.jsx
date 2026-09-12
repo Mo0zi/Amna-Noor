@@ -93,7 +93,7 @@ export default function Projects() {
           &bull; SELECTED PROJECTS
         </span>
         <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter text-white leading-none">
-          MY <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-500">WORK</span>
+          AI ENGINEERING <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-500">WORK</span>
         </h2>
       </div>
 
@@ -112,7 +112,7 @@ export default function Projects() {
               <div className="w-full h-[140px] sm:h-[180px] md:h-[230px] rounded-2xl overflow-hidden mb-6 relative border border-white/5 bg-zinc-950">
                 <img
                   src={project.image}
-                  alt={`Amna Noor Portfolio Project - ${project.title} - ${project.category}`}
+                  alt={`AmnaNoor AI Engineer Project - ${project.title} - ${project.category}`}
                   className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
                 />
                 
