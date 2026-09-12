@@ -79,7 +79,7 @@ export default function Hero() {
           
           <h1 className="text-5xl md:text-[5vw] font-black uppercase leading-[0.95] tracking-tighter text-white">
             Hello, I'm <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-500 drop-shadow-sm">AmnaNoor AI Engineer</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-500 drop-shadow-sm">AmnaNoor Eng</span>
           </h1>
 
           {/* Rolling Word Container */}
@@ -132,7 +132,7 @@ export default function Hero() {
           >
             <img
               src="/hero_profile.jpg"
-              alt="AmnaNoor AI Engineer - Premium Web Architect Portfolio"
+              alt="AmnaNoor Eng - Premium Web Architect Portfolio"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
             />
           </div>

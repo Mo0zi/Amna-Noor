@@ -112,7 +112,7 @@ export default function Projects() {
               <div className="w-full h-[140px] sm:h-[180px] md:h-[230px] rounded-2xl overflow-hidden mb-6 relative border border-white/5 bg-zinc-950">
                 <img
                   src={project.image}
-                  alt={`AmnaNoor AI Engineer Project - ${project.title} - ${project.category}`}
+                  alt={`AmnaNoor Eng Project - ${project.title} - ${project.category}`}
                   className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
                 />
                 
