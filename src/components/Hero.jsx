@@ -99,7 +99,7 @@ export default function Hero() {
           </div>
 
           <p className="text-zinc-400 max-w-lg text-sm md:text-base leading-relaxed font-medium">
-            Hi, I'm Amna, a Full-Stack Web Developer and UI/UX-focused Product Builder. I specialize in designing and developing premium websites, SaaS platforms, AI-powered applications, and modern digital experiences.
+            Hi, I'm Amna (often known online as amnanoor), a Full-Stack Web Developer and AI Engineer. Bringing together my academic roots from UCP (University of Central Punjab) and my passion for cutting-edge technology, I specialize in designing and developing premium websites, SaaS platforms, and AI-powered digital experiences.
           </p>
 
           {/* Social Icons Container */}
